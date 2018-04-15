@@ -8,7 +8,8 @@
     height: 50px;
     border: 1px solid red;
     background-color: #ddd;
-  }
+    text-align: center;
+    }
  
   .row:before {
     display: table;
@@ -36,9 +37,10 @@
     float: left;
     width: 25%;
 }
- .col-3 img{
+ .col-5 img{
   float: left;
   height: 50px;
+  padding-left: 20px;;
 }  
 .col-4{
     float: left;
@@ -77,10 +79,7 @@
     width: 100%;
 }
 nav {
-  position: fixed;
   top: 0;
-}
-nav li a { 
   line-height: 50px;
   text-decoration: none;
   color: #999;
@@ -88,11 +87,20 @@ nav li a {
   text-transform: uppercase;
   font-weight: bold;
   position: center;
-  font-family: 'Roboto', sans-serif;
+  font-family:  sans-serif;
   text-align: center;
 }
-nav ul {
-  margin: 0;
+a {
+  top: 0;
+  line-height: 50px;
+  text-decoration: none;
+  color: #999;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: center;
+  font-family:  sans-serif;
   text-align: center;
 }
+
   
